@@ -1,0 +1,20 @@
+.container-full {
+	padding: 20px 5px;
+    background-color: rgb(218, 218, 218);
+    font-style: italic;
+}
+.important {
+    color: red;
+
+}
+
+p {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+p#special {
+    color: green;
+    text-decoration: underline;
+
+}

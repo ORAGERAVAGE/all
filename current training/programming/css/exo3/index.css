@@ -1,0 +1,359 @@
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+header {
+  background: linear-gradient(135deg, #6b48ff 0%, #ff5894 100%);
+  color: white;
+  padding: 30px 0px;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.contenu {
+  width: 900px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: rgb(234, 218, 255);
+  opacity: 0.8;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.301);
+  z-index: -1;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.contenu p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contenu2 p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contenu3 p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contenu2 {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background-color: rgb(234, 218, 255);
+  opacity: 0.8;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.301);
+  z-index: -1;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.contenu3 {
+  width: 90%;
+  max-width: 900px;
+  min-height: 300px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  background-color: rgba(234, 218, 255, 0.9);
+  opacity: 0.8;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.titre {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.titre h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: #1a73e8;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+}
+
+.space {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.space p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0;
+}
+.placement {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  align-items: stretch;
+}
+
+.boite {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boite h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+.boite p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: white;
+}
+.ligne {
+  position: relative;
+  padding-bottom: 10px;
+}
+.ligne::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 820px;
+  height: 3px;
+  background-color: #1a73e8;
+}
+.ligne2 {
+  position: relative;
+  padding-bottom: 10px;
+}
+.ligne2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 820px;
+  height: 3px;
+  background-color: #1a73e8;
+}
+@keyframes myAnim {
+  0%,
+  100% {
+    transform: translateX(0%);
+    transform-origin: 50% 50%;
+  }
+
+  15% {
+    transform: translateX(-30px) rotate(6deg);
+  }
+
+  30% {
+    transform: translateX(15px) rotate(-6deg);
+  }
+
+  45% {
+    transform: translateX(-15px) rotate(3.6deg);
+  }
+
+  60% {
+    transform: translateX(9px) rotate(-2.4deg);
+  }
+
+  75% {
+    transform: translateX(-6px) rotate(1.2deg);
+  }
+}
+
+@media (min-width: 768px) {
+  .space {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .contenu3 {
+    width: 95%;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contenu3 {
+    width: 98%;
+    margin: 1rem auto;
+    padding: 0.75rem;
+    min-height: 200px;
+    border-radius: 8px;
+  }
+  .ligne {
+    width: 98%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contenu3 {
+    max-width: 1000px;
+    padding: 2rem;
+  }
+}
